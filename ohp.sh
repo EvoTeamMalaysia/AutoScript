@@ -1,7 +1,7 @@
 #!/bin/bash
-#Open HTTP Puncher By Okkay Kayyo Project
+#Open HTTP Puncher By EvoTeamMalaysia Project
 #Direct Proxy Squid For OpenVPN TCP
-#Telegram: @OkkayKayyo
+#Telegram: @EvoTeamMalaysia
 RED='\e[1;31m'
 GREEN='\e[0;32m'
 BLUE='\e[0;34m'
@@ -22,7 +22,7 @@ Port_OHP='8087';
 
 #Installing ohp Server
 cd 
-wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/iqooneo5/neo/main/ohp"
+wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/ohp"
 chmod +x /usr/local/bin/ohp
 
 #Buat File OpenVPN TCP OHP
@@ -96,4 +96,4 @@ echo ""
 echo -e "${GREEN}Done Installing OHP Server${NC}"
 echo -e "Port OVPN OHP TCP: $ohpp"
 echo -e "Link Download OVPN OHP: http://$MYIP:81/tcp-ohp.ovpn"
-echo -e "Script By OKKAY KAYYO"
+echo -e "Script By EvoTeamMalaysia"
