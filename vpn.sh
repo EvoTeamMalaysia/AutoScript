@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# By OkkayKayyo
+# By EvoTeamMalaysia
 # ==================================================
 
 # initialisasi var
@@ -15,7 +15,7 @@ apt install openvpn easy-rsa unzip -y
 apt install openssl iptables iptables-persistent -y
 mkdir -p /etc/openvpn/server/easy-rsa/
 cd /etc/openvpn/
-wget https://raw.githubusercontent.com/iqooneo5/neo/main/vpn.zip
+wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/vpn.zip
 unzip vpn.zip
 rm -f vpn.zip
 chown -R root:root /etc/openvpn/server/easy-rsa/
@@ -60,7 +60,7 @@ sed -i $MYIP2 /etc/openvpn/client-tcp-1194.ovpn;
 # Buat config client UDP 2200
 cat > /etc/openvpn/client-udp-2200.ovpn <<-END
 ########## SELAMAT DATANG ###########
-########## OKKAY KAYYO VPN ##########
+########## EvoTeam VPN ##########
 client
 dev tun
 proto udp
@@ -80,7 +80,7 @@ sed -i $MYIP2 /etc/openvpn/client-udp-2200.ovpn;
 # Buat config client SSL
 cat > /etc/openvpn/client-tcp-ssl.ovpn <<-END
 ########## SELAMAT DATANG ############
-########## OKKAY KAYYO VPN ###########
+########## EvoTeam VPN ###########
 client
 dev tun
 proto tcp
