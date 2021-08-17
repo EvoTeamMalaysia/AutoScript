@@ -36,4 +36,4 @@ systemctl start v2ray@none
 echo -e "[${GREEN}Done${NC}]"
 echo "Location Your Domain : /home/domain"
 echo ""
-echo -e "${RED}Autoscript By OkkayKayyo${NC}"
+echo -e "${RED}Autoscript By EvoTeamMalaysia${NC}"
