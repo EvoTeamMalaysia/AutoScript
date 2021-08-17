@@ -2,4 +2,4 @@
 
 clear
 neofetch
-echo "Script By OKKAY-KAYYO"
+echo "Script By EvoTeamMalaysia"
