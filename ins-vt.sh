@@ -491,19 +491,19 @@ systemctl enable trojan
 systemctl restart v2ray
 systemctl enable v2ray
 cd /usr/bin
-wget -O add-ws "https://raw.githubusercontent.com/iqooneo5/neo/main/add-ws.sh"
-wget -O add-vless "https://raw.githubusercontent.com/iqooneo5/neo/main/add-vless.sh"
-wget -O add-tr "https://raw.githubusercontent.com/iqooneo5/neo/main/add-tr.sh"
-wget -O del-ws "https://raw.githubusercontent.com/iqooneo5/neo/main/del-ws.sh"
-wget -O del-vless "https://raw.githubusercontent.com/iqooneo5/neo/main/del-vless.sh"
-wget -O del-tr "https://raw.githubusercontent.com/iqooneo5/neo/main/del-tr.sh"
-wget -O cek-ws "https://raw.githubusercontent.com/iqooneo5/neo/main/cek-ws.sh"
-wget -O cek-vless "https://raw.githubusercontent.com/iqooneo5/neo/main/cek-vless.sh"
-wget -O cek-tr "https://raw.githubusercontent.com/iqooneo5/neo/main/cek-tr.sh"
-wget -O renew-ws "https://raw.githubusercontent.com/iqooneo5/neo/main/renew-ws.sh"
-wget -O renew-vless "https://raw.githubusercontent.com/iqooneo5/neo/main/renew-vless.sh"
-wget -O renew-tr "https://raw.githubusercontent.com/iqooneo5/neo/main/renew-tr.sh"
-wget -O certv2ray "https://raw.githubusercontent.com/iqooneo5/neo/main/cert.sh"
+wget -O add-ws "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/add-ws.sh"
+wget -O add-vless "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/add-vless.sh"
+wget -O add-tr "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/add-tr.sh"
+wget -O del-ws "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/del-ws.sh"
+wget -O del-vless "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScripto/main/del-vless.sh"
+wget -O del-tr "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/del-tr.sh"
+wget -O cek-ws "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/cek-ws.sh"
+wget -O cek-vless "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/cek-vless.sh"
+wget -O cek-tr "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/cek-tr.sh"
+wget -O renew-ws "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/renew-ws.sh"
+wget -O renew-vless "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/renew-vless.sh"
+wget -O renew-tr "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/renew-tr.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/cert.sh"
 chmod +x add-ws
 chmod +x add-vless
 chmod +x add-tr
