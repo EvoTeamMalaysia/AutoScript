@@ -36,28 +36,28 @@ exit 0
 fi
 mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
-wget https://raw.githubusercontent.com/iqooneo5/neo/main/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/cf.sh && chmod +x cf.sh && ./cf.sh
 #install ssh ovpn
-wget https://raw.githubusercontent.com/iqooneo5/neo/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #sstp
-wget https://raw.githubusercontent.com/iqooneo5/neo/main/sstp.sh && chmod +x sstp.sh && ./sstp.sh
+wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/sstp.sh && chmod +x sstp.sh && ./sstp.sh
 #install ssr
-wget https://raw.githubusercontent.com/iqooneo5/neo/main/ssr.sh && chmod +x ssr.sh && ./ssr.sh
+wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/ssr.sh && chmod +x ssr.sh && ./ssr.sh
 #sodosok
-wget https://raw.githubusercontent.com/iqooneo5/neo/main/sodosok.sh && chmod +x sodosok.sh && ./sodosok.sh
+wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/sodosok.sh && chmod +x sodosok.sh && ./sodosok.sh
 #installwg
-wget https://raw.githubusercontent.com/iqooneo5/neo/main/wg.sh && chmod +x wg.sh && ./wg.sh
+wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/wg.sh && chmod +x wg.sh && ./wg.sh
 #install v2ray
-wget https://raw.githubusercontent.com/iqooneo5/neo/main/ins-vt.sh && chmod +x ins-vt.sh && ./ins-vt.sh
+wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/ins-vt.sh && chmod +x ins-vt.sh && ./ins-vt.sh
 #install L2TP
-wget https://raw.githubusercontent.com/iqooneo5/neo/main/ipsec.sh && chmod +x ipsec.sh && ./ipsec.sh
+wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/ipsec.sh && chmod +x ipsec.sh && ./ipsec.sh
 #br-set
-wget https://raw.githubusercontent.com/iqooneo5/neo/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 # Set Index
 cd /home/vps/public_html
-wget https://raw.githubusercontent.com/iqooneo5/myindex/main/index.html
+wget https://raw.githubusercontent.com/EvoTeamMalaysia/MyOwnIndex/main/index.html
 #install ohp-server
-wget https://raw.githubusercontent.com/iqooneo5/neo/main/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 cd
 #install figlet & lolcat
 sudo apt-get install figlet
